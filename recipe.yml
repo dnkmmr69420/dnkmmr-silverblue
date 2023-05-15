@@ -48,6 +48,7 @@ rpm:
   repos:
     # Example (which also demonstrates version number expansion):
     # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/nickavem/adw-gtk3/repo/fedora-%FEDORA_VERSION%/nickavem-adw-gtk3-fedora-%FEDORA_VERSION%.repo
 
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
@@ -64,6 +65,7 @@ rpm:
     # Add your own below:
     # Example:
     # - tilix
+    - adw-gtk3
 
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
@@ -71,6 +73,9 @@ rpm:
     # Remove the native firefox (from Fedora) in favor of the Flatpak.
     - firefox
     - firefox-langpacks
+    - distrobox
+    - toolbox
+    - htop
 
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
