@@ -65,7 +65,6 @@ rpm:
     # Add your own below:
     # Example:
     # - tilix
-    - adw-gtk3
     - dnf
     - 'dnf-command(copr)'
     - steam-devices
