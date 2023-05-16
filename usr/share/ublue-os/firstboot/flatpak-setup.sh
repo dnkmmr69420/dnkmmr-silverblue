@@ -25,7 +25,9 @@ sudo flatpak install -y org.gnome.Weather --system
 sudo flatpak install -y org.gnome.TextEditor --system
 sudo flatpak install -y org.gnome.NautilusPreviewer --system
 sudo flatpak install -y org.gnome.Totem --system
-
+sudo flatpak install -y org.gnome.Calendar --system
+sudo flatpak install -y org.gnome.clocks --system
+sudo flatpak install -y org.gnome.Logs --system
 
 sudo mkdir -p /etc/firstboot-check-dir
 sudo touch /etc/firstboot-check-dir/flatpak-apps
