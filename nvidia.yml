@@ -67,7 +67,6 @@ rpm:
     # - tilix
     - dnf
     - 'dnf-command(copr)'
-    - steam-devices
     - libvirt
     - qemu
     # - adw-gtk3
