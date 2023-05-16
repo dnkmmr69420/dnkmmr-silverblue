@@ -33,6 +33,7 @@ jobs:
         recipe:
           - recipe.yml
           - nvidia.yml
+          - akmod-wl.yml
 
     steps:
       # Checkout push-to-registry action GitHub repository
