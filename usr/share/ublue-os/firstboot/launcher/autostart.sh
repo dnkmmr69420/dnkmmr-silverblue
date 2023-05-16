@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "Checking if this system has been set up"
+
 if [[ -f /etc/firstboot-check-dir/nix-apps && -f /etc/firstboot-check-dir/flatpak-apps && -d /nix ]]; then
 
 echo "This system has already been set up"
