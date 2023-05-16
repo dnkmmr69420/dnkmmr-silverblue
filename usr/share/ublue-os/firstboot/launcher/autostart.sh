@@ -4,4 +4,4 @@
 
 [ -f /etc/firstboot-check-dir/nix-apps ] && echo “nix has already installed its packages” || bash /usr/share/ublue-os/firstboot/nix-setup.sh
 
-[ -f /etc/firstboot-check-dir/flatpak-apps ] && echo “flatpaks have been already set up” || bash /usr/share/ublue-os/firstboot/nix-setup.sh
+[ -f /etc/firstboot-check-dir/flatpak-apps ] && echo “flatpaks have been already set up” || bash /usr/share/ublue-os/firstboot/flatpak-setup.sh
