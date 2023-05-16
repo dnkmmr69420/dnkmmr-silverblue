@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+if [[ -f /etc/firstboot-check-dir/nix-apps && -f /etc/firstboot-check-dir/flatpak-apps && -d /nix ]]; then
+
+echo "This system has already been set up"
+exit 0
+
+fi
+
 echo "Enter password to continue installing nix applications and flatpaks. If nix is not installed, this will install it for you"
 
 sudo echo "Continuing setup..."
