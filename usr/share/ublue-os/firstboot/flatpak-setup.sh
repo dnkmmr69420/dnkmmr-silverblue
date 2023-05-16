@@ -21,6 +21,10 @@ sudo flatpak install -y org.gnome.SimpleScan --system
 sudo flatpak install -y org.gnome.Evince --system
 sudo flatpak install -y org.gnome.font-viewer --system
 sudo flatpak install -y org.gnome.eog --system
+sudo flatpak install -y org.gnome.Weather --system
+sudo flatpak install -y org.gnome.TextEditor --system
+sudo flatpak install -y org.gnome.NautilusPreviewer --system
+sudo flatpak install -y org.gnome.Totem --system
 
 
 sudo mkdir -p /etc/firstboot-check-dir
